@@ -66,37 +66,37 @@ public WebElement GetStartOverButton() {
  
 public WebElement GetCPCountry() {
      
-    return driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[1]/div[2]/div/div/div/div[2]/div/span[4]"));
+    return driver.findElement(By.xpath("/html/body/div[1]/main/section/div[2]/section/div/div[2]/div/span[4]"));
  
 }
  
 public WebElement GetCPFamily() {
      
-    return driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[1]/div[2]/div/div/div/div[2]/div/span[6]"));
+    return driver.findElement(By.xpath("/html/body/div[1]/main/section/div[2]/section/div/div[2]/div/span[6]"));
  
 }
  
 public WebElement GetCPCommission() {
      
-    return driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[1]/div[2]/div/div/div/div[2]/div/span[8]"));
+    return driver.findElement(By.xpath("/html/body/div[1]/main/section/div[2]/section/div/div[2]/div/span[8]"));
  
 }
  
 public WebElement GetCPFundType() {
      
-    return driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[1]/div[2]/div/div/div/div[2]/div/span[10]"));
+    return driver.findElement(By.xpath("/html/body/div[1]/main/section/div[2]/section/div/div[2]/div/span[10]"));
  
 }
  
 public WebElement GetCPEditButton() {
      
-    return driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[1]/div[2]/div/div/div/div[1]/div/div/button[3]"));
+    return driver.findElement(By.xpath("/html/body/div[1]/main/section/div[2]/section/div/div[1]/div/div/button[3]"));
  
 }
  
 public WebElement GetCPViewResultsButton() {
      
-    return driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[2]/div/div/div/form/div[7]/div/button[1]"));
+    return driver.findElement(By.xpath("/html/body/div[1]/main/section/div[2]/section/div/form/div[7]/div/button[1]"));
  
 }
 
